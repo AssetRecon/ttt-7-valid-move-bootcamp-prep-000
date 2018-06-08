@@ -7,7 +7,8 @@ def valid_move?(board,index)
     
    elsif index.between?(0,8)
    
-    return position_taken?(board,index)
+    return !position_taken?(board,index)
+    
   end
 end
 
